@@ -1,7 +1,24 @@
 aid: allsome
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/allsome.png
 name: AllSome
-description: AllSome is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: AllSome is a Malaysia-based cross-border e-commerce fulfillment, warehousing, and supply-chain
+  company serving online marketplace sellers across Southeast Asia. It operates a fulfillment network and
+  order-management platform that helps sellers source, store, and ship goods (notably China-to-SEA cross-border
+  trade) across channels such as Shopee, Lazada, and TikTok Shop. AllSome is backed by 500 Global and is
+  tracked in the API Evangelist network as a portfolio-lead stub; no public developer API surface was
+  discoverable during enrichment (the primary website is WAF-protected and returns 403 to automated clients,
+  and no api/developer/docs subdomains resolve).
 url: https://raw.githubusercontent.com/api-evangelist/allsome/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +31,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- E-commerce
+- Fulfillment
+- Logistics
+- Warehousing
+- Cross-border
+- Supply Chain
+- Southeast Asia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/allsome-domain-security.yml
 - type: Website
   url: https://allsome.my
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
