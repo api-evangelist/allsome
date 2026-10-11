@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "allsome",
+    "captured_at": "2026-10-11T141124",
+    "source_url": "https://allsome.my",
+    "source_type": "Website",
+    "file": "allsome-2026-10-11T141124.png",
+    "bytes": 23218,
+    "capture": "playwright-local"
+  }
+]
